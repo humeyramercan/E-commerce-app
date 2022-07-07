@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/main_color</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">10dp</item>
+        <item name="android:translationZ">2dp</item>
+        <item name="android:translationX">2dp</item>
+        <item name="android:translationY">2dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">15dp</item>
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">40dp</item>
+        <item name="android:paddingVertical" tools:targetApi="o">18dp</item>
+    </style>
+
+    <style name="loginColorfulTexts">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/main_color</item>
+    </style>
+
+    <style name="loginBlackTexts">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black1</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+    </style>
+
+    <style name="loginWhiteTexts">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="editTexts">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:lines">1</item>
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+
+    <style name="textInputLayouts" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingHorizontal" tools:targetApi="o">20dp</item>
+        <item name="helperTextTextColor">@color/red</item>
+    </style>
+
+    <style name="circular">
+        <item name="cornerSize">5%</item>
+    </style>
+
+
+    <style name="TransparentActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@android:color/transparent</item> </style>
+</resources>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="textInputLayouts">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingHorizontal">20dp</item>
+        <item name="helperTextTextColor">@color/red</item>
+    </style>
+
+    <style name="buttons">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:backgroundTint">@color/main_color</item>
+    <item name="android:stateListAnimator">@null</item>
+    <item name="android:elevation">10dp</item>
+    <item name="android:translationZ">2dp</item>
+    <item name="android:translationX">2dp</item>
+    <item name="android:translationY">2dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="cornerRadius">15dp</item>
+    <item name="android:layout_marginHorizontal">40dp</item>
+    <item name="android:paddingVertical">18dp</item>
+    </style>
+
+
+</resources>

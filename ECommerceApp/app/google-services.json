@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "546809458795",
+    "project_id": "e-commerceapp-4bf67",
+    "storage_bucket": "e-commerceapp-4bf67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546809458795:android:494b80426ad40baf08412e",
+        "android_client_info": {
+          "package_name": "com.humeyramercan.e_commerceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546809458795-pt77rtd79r9epuu12reqvaikrnc28vhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6kSuqcB7-vPJFCaHf1Y0MKfwkSv0RZSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546809458795-pt77rtd79r9epuu12reqvaikrnc28vhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

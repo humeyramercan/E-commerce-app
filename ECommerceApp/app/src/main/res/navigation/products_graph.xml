@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/products_graph"
+    android:label="products_graph"
+    app:startDestination="@id/homePage">
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.humeyramercan.e_commerceapp.view.HomePageFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_page">
+        <action
+            android:id="@+id/action_homePage_to_productDetailFragment"
+            app:destination="@id/productDetailFragment"
+            app:enterAnim="@anim/translate_from_right"
+            app:exitAnim="@anim/translate_to_down"
+            app:popEnterAnim="@anim/translate_from_down"
+            app:popExitAnim="@anim/translate_to_right" />
+        <action
+            android:id="@+id/action_homePage_to_productsFragment"
+            app:destination="@id/productsFragment"
+            app:enterAnim="@anim/translate_from_right"
+            app:exitAnim="@anim/translate_to_down"
+            app:popEnterAnim="@anim/translate_from_down"
+            app:popExitAnim="@anim/translate_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/basket"
+        android:name="com.humeyramercan.e_commerceapp.view.BasketFragment"
+        android:label="Basket"
+        tools:layout="@layout/fragment_basket">
+        <action
+            android:id="@+id/action_basket_to_successOrderFragment"
+            app:destination="@id/successOrderFragment"
+            app:enterAnim="@anim/translate_from_right"
+            app:exitAnim="@anim/translate_to_down"
+            app:popUpTo="@id/basket"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_basket_to_homePage"
+            app:destination="@id/homePage" />
+        <action
+            android:id="@+id/action_basket_to_productDetailFragment"
+            app:destination="@id/productDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favorites"
+        android:name="com.humeyramercan.e_commerceapp.view.FavoritesFragment"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_favorites">
+        <action
+            android:id="@+id/action_favorites_to_productDetailFragment"
+            app:destination="@id/productDetailFragment"
+            app:enterAnim="@anim/translate_from_right"
+            app:exitAnim="@anim/translate_to_down"
+            app:popEnterAnim="@anim/translate_from_down"
+            app:popExitAnim="@anim/translate_to_right" />
+        <action
+            android:id="@+id/action_favorites_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.humeyramercan.e_commerceapp.view.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.humeyramercan.e_commerceapp.view.ProductDetailFragment"
+        android:label="Product Detail"
+        tools:layout="@layout/fragment_product_detail">
+        <argument
+            android:name="productModel"
+            app:argType="com.humeyramercan.e_commerceapp.model.ProductModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="com.humeyramercan.e_commerceapp.view.ProductsFragment"
+        android:label="Products"
+        tools:layout="@layout/fragment_products">
+        <action
+            android:id="@+id/action_allProductsFragment_to_productDetailFragment"
+            app:destination="@id/productDetailFragment"
+            app:enterAnim="@anim/translate_from_right"
+            app:exitAnim="@anim/translate_to_down"
+            app:popEnterAnim="@anim/translate_from_down"
+            app:popExitAnim="@anim/translate_to_right" />
+        <argument
+            android:name="categoryName"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/successOrderFragment"
+        android:name="com.humeyramercan.e_commerceapp.view.SuccessOrderFragment"
+        android:label="fragment_success_order"
+        tools:layout="@layout/fragment_success_order">
+        <action
+            android:id="@+id/action_successOrderFragment_to_homePage"
+            app:destination="@id/homePage"
+            app:enterAnim="@anim/translate_from_right"
+            app:exitAnim="@anim/translate_to_down"
+            app:popEnterAnim="@anim/translate_from_down"
+            app:popExitAnim="@anim/translate_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/categories"
+        android:name="com.humeyramercan.e_commerceapp.view.CategoriesFragment"
+        android:label="fragment_categories"
+        tools:layout="@layout/fragment_categories" >
+        <action
+            android:id="@+id/action_categories_to_productsFragment"
+            app:destination="@id/productsFragment" />
+    </fragment>
+</navigation>

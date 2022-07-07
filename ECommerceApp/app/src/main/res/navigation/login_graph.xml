@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_graph"
+    android:label="Profile"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.humeyramercan.e_commerceapp.view.SignUpFragment"
+        android:label="Sign Up"
+        tools:layout="@layout/fragment_sign_up">
+        <action
+            android:id="@+id/action_signUpFragment_to_products_graph"
+            app:destination="@id/products_graph"
+            app:enterAnim="@anim/translate_from_right"
+            app:exitAnim="@anim/translate_to_down"
+            app:popUpTo="@id/signUpFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_signUpFragment_to_signInFragment"
+            app:destination="@id/signInFragment"
+            app:enterAnim="@anim/translate_from_right"
+            app:exitAnim="@anim/translate_to_down"
+            app:popEnterAnim="@anim/translate_from_down"
+            app:popExitAnim="@anim/translate_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.humeyramercan.e_commerceapp.view.ForgotPasswordFragment"
+        android:label="Forgot Password"
+        tools:layout="@layout/fragment_forgot_password">
+        <action
+            android:id="@+id/action_forgotPasswordFragment_to_signInFragment"
+            app:destination="@id/signInFragment"
+            app:enterAnim="@anim/translate_from_right"
+            app:exitAnim="@anim/translate_to_down"
+            app:popEnterAnim="@anim/translate_from_down"
+            app:popExitAnim="@anim/translate_to_right"
+            app:popUpTo="@id/forgotPasswordFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <include app:graph="@navigation/products_graph" />
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.humeyramercan.e_commerceapp.view.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_products_graph"
+            app:destination="@id/products_graph"
+            app:enterAnim="@anim/translate_from_right"
+            app:exitAnim="@anim/translate_to_down"
+            app:popUpTo="@id/signInFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_signInFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment"
+            app:enterAnim="@anim/translate_from_right"
+            app:exitAnim="@anim/translate_to_down"
+            app:popEnterAnim="@anim/translate_from_down"
+            app:popExitAnim="@anim/translate_to_right" />
+        <action
+            android:id="@+id/action_signInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment"
+            app:enterAnim="@anim/translate_from_right"
+            app:exitAnim="@anim/translate_to_down"
+            app:popEnterAnim="@anim/translate_from_down"
+            app:popExitAnim="@anim/translate_to_right" />
+    </fragment>
+</navigation>

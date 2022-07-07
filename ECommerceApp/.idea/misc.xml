@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1195" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/cardview_shape.xml" value="0.131" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/categories_item_shape.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/discount_text_shape.xml" value="0.1" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_arrow.xml" value="0.1055" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_baseline_category_24.xml" value="0.1195" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_baseline_favorite_24_16x.xml" value="0.1195" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.1195" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1195" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.1195" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_basket.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_call.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_category.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_close.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_close2.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_delete.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_favorite.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_girl_clo.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_home.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1175" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_lock.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_mail.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_minus.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_plus.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_profile.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/ic_show.xml" value="0.188" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/myshape.xml" value="0.127" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/new_text_shape.xml" value="0.107" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/price_shape.xml" value="0.131" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/products_shape.xml" value="0.1" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/rounded_shape.xml" value="0.177" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/toolbar_bg.xml" value="0.1" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/drawable/view_shape.xml" value="0.1345" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/font-v26/lato.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/font-v26/raleway.xml" value="0.20666666666666667" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/font/aleo.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/font/gentium.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/font/lato.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/font/raleway.xml" value="0.20666666666666667" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout-v26/fragment_product_detail.xml" value="0.13994565217391305" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/activity_home.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/activity_splash.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/all_product_item.xml" value="0.6" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/basket_item.xml" value="0.22" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/categories_item.xml" value="0.22" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/favroites_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/fragment_all_products.xml" value="0.13994565217391305" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/fragment_basket.xml" value="0.22" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/fragment_blank.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/fragment_categories.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/fragment_favorites.xml" value="0.22" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/fragment_forgot_password.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/fragment_home_page.xml" value="0.20253164556962025" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/fragment_product_detail.xml" value="0.22" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/fragment_products.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/fragment_profile.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/fragment_sign_in.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/fragment_sign_up.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/fragment_success_order.xml" value="0.1" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/fragment_successful_order.xml" value="0.1796875" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/product_item.xml" value="0.5" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/sale_product_item.xml" value="0.22" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/layout/view_pager_item.xml" value="0.1" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/menu/navigation_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/humey/ECommerceApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
